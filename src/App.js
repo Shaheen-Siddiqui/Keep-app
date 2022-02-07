@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Header } from "./Header";
-import Footer from "./Footer";
 import CreateNote from "./CreateNote";
 import Note from "./Note";
 import "./index.css";
@@ -29,7 +28,6 @@ function App() {
         />;
         })}
       </div>
-      <Footer />
     </>
   );
 }
